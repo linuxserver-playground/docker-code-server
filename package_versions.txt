@@ -1,4 +1,4 @@
-NAME                                        VERSION                            TYPE                    
+NAME                                        VERSION                            TYPE                     
 @coder/logger                               3.0.1                              npm                      
 @devcontainers/cli                          0.88.0                             npm                      
 @epic-web/invariant                         1.0.0                              npm                      
@@ -42,8 +42,8 @@ NAME                                        VERSION                            T
 @xterm/headless                             6.1.0-beta.303                     npm                      
 @xterm/xterm                                6.1.0-beta.304                     npm                      
 Microsoft.PowerShell.PSReadLine             2.4.3                              dotnet                   
-Microsoft.PowerShell.PSReadLine.Polyfiller  1.0.0.0                            dotnet  (+1 duplicate)   
-Microsoft.PowerShell.Pager                  1.0.0.0                            dotnet                   
+Microsoft.PowerShell.PSReadLine.Polyfiller  1.0.0                              dotnet  (+1 duplicate)   
+Microsoft.PowerShell.Pager                  1.0.0                              dotnet                   
 accepts                                     2.0.0                              npm                      
 adduser                                     3.137ubuntu1                       deb                      
 agent-base                                  7.1.1                              npm                      
