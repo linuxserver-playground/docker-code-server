@@ -27,7 +27,7 @@ Find us at:
 
 [![GitHub Release](https://img.shields.io/github/release/linuxserver-playground/docker-code-server.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=github)](https://github.com/linuxserver-playground/docker-code-server/releases)
 [![GitHub Package Repository](https://img.shields.io/static/v1.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=linuxserver.io&message=GitHub%20Package&logo=github)](https://github.com/linuxserver-playground/docker-code-server/packages)
-[![Docs](https://img.shields.io/static/v1.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=linuxserver.io&message=Docs&logo=materialformkdocs)](https://linuxserver-playground.github.io/docs/images/docker-code-server)
+[![Docs](https://img.shields.io/static/v1.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=linuxserver.io&message=Docs&logo=materialformkdocs)](https://linuxserver-playground.github.io/site/images/code-server/)
 [![CI](https://ci.thelamer.duckdns.org:8443/badge/code-server/latest.svg)](https://ci.thelamer.duckdns.org:8443/images/code-server/latest)
 
 [Code-server](https://coder.com) is VS Code running on a remote server, accessible through the browser.
@@ -70,7 +70,7 @@ How to create the [hashed password](https://github.com/cdr/code-server/blob/mast
 
 ## Read-Only Operation
 
-This image can be run with a read-only container filesystem. For details please [read the docs](https://linuxserver-playground.github.io/docs/misc/read-only/).
+This image can be run with a read-only container filesystem. For details please [read the docs](https://linuxserver-playground.github.io/site/docs/misc/read-only/).
 
 ### Caveats
 
@@ -79,7 +79,7 @@ This image can be run with a read-only container filesystem. For details please 
 
 ## Non-Root Operation
 
-This image can be run with a non-root user. For details please [read the docs](https://linuxserver-playground.github.io/docs/misc/non-root/).
+This image can be run with a non-root user. For details please [read the docs](https://linuxserver-playground.github.io/site/docs/misc/non-root/).
 
 ### Caveats
 
@@ -92,7 +92,7 @@ To help you get started creating a container from this image you can either use 
 > [!NOTE]
 > Unless a parameter is flagged as 'optional', it is *mandatory* and a value must be provided.
 
-### docker-compose (recommended, [click here for more info](https://linuxserver-playground.github.io/docs/general/docker-compose))
+### docker-compose (recommended, [click here for more info](https://linuxserver-playground.github.io/site/docs/general/docker-compose))
 
 ```yaml
 ---
@@ -157,8 +157,8 @@ Containers are configured using parameters passed at runtime (such as those abov
 | `-e DEFAULT_WORKSPACE=/config/workspace` | If this optional variable is set, code-server will open this directory by default |
 | `-e PWA_APPNAME=code-server` | If this optional variable is set, the PWA app will the specified name. |
 | `-v /config` | Contains all relevant configuration files. |
-| `--read-only=true` | Run container with a read-only filesystem. Please [read the docs](https://linuxserver-playground.github.io/docs/misc/read-only/). |
-| `--user=1000:1000` | Run container with a non-root user. Please [read the docs](https://linuxserver-playground.github.io/docs/misc/non-root/). |
+| `--read-only=true` | Run container with a read-only filesystem. Please [read the docs](https://linuxserver-playground.github.io/site/docs/misc/read-only/). |
+| `--user=1000:1000` | Run container with a non-root user. Please [read the docs](https://linuxserver-playground.github.io/site/docs/misc/non-root/). |
 
 ## Environment variables from files (Docker secrets)
 
@@ -197,7 +197,7 @@ uid=1000(your_user) gid=1000(your_user) groups=1000(your_user)
 
 ## Docker Mods
 
-[![Docker Mods](https://img.shields.io/static/v1.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=code-server&message=mods&logo=docker)](https://linuxserver-playground.github.io/hub/mods/?image=code-server "view available mods for this container.") [![Docker Universal Mods](https://img.shields.io/static/v1.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=universal&message=mods&logo=docker)](https://linuxserver-playground.github.io/hub/mods/?image=universal "view available universal mods.")
+[![Docker Mods](https://img.shields.io/static/v1.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=code-server&message=mods&logo=docker)](https://linuxserver-playground.github.io/site/mods/?image=code-server "view available mods for this container.") [![Docker Universal Mods](https://img.shields.io/static/v1.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=universal&message=mods&logo=docker)](https://linuxserver-playground.github.io/site/mods/?image=universal "view available universal mods.")
 
 We publish various [Docker Mods](https://github.com/linuxserver-playground/docker-mods) to enable additional functionality within the containers. The list of Mods available for this image (if any) as well as universal mods that can be applied to any one of our images can be accessed via the badges above.
 
