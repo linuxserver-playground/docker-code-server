@@ -19,6 +19,9 @@ upstream:
     transform:
     - regex: ^v
       replace: ''
+    require_assets:
+      - asset: '^code\-server\-.*\-linux\-amd64\.tar\.gz$'
+      - asset: '^code\-server\-.*\-linux\-arm64\.tar\.gz$'
   notes:
     type: github_release
     repo: coder/code-server
